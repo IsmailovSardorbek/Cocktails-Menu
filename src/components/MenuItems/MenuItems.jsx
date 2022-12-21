@@ -1,7 +1,7 @@
 import "./menu-items.css";
 import items from "../../data/items.json";
 import MenuItem from "../MenuItem/MenuItem";
-import { useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function MenuItems({ searchValue }) {
   const [cardItems, setCardItems] = useState(items);
